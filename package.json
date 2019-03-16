@@ -1,0 +1,21 @@
+{
+  "name": "dictionary.server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "common": "^0.2.5",
+    "cookie-parser": "~1.4.4",
+    "debug": "~4.1.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.14",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "passport-facebook": "^3.0.0",
+    "translate": "^1.0.4"
+  }
+}
